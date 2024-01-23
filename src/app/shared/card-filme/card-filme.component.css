@@ -1,0 +1,11 @@
+.card {
+    border: none;
+    transition: transform 0.5s ease, border 0.6s ease; 
+    cursor: pointer; 
+}
+
+.card:hover {
+    transform: scale(1.1) rotate(10deg); 
+    border: 2px solid red; 
+    cursor: pointer; 
+}

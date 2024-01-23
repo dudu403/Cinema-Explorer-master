@@ -1,0 +1,20 @@
+<div class="row g-4">
+    <h1 class="text-danger fw-bolder text-center">Favoritos</h1>
+    <p class="text-light text-center">Esta é a sua seleção pessoal de filmes favoritos, uma lista única e especial de
+        filmes que lhe marcaram de alguma forma. De dramas cativantes a aventuras emocionantes, cada filme nesta lista é
+        uma experiência cinematográfica memorável.
+    </p>
+    <div class="col-6 col-md-4 col-lg-2 d-grid gap-4 text-center" *ngFor="let filme of filmesFavoritos">
+        <div class="card-container card" routerLink="/view/filme-detalhes/{{filme.id}}">
+            <img [src]="filme.posterUrl" alt="{{ filme.nomePt }}" class="card-img-top">
+            <div class="card-body">
+                <div class="row">
+                    <h5 class="card-title text-danger">{{ filme.nomePt }}</h5>
+                </div>
+                <div class="row">
+                    <button class="btn btn-danger text-black" (click)="removerDosFavoritos(filme)">Remover</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

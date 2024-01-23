@@ -1,0 +1,18 @@
+
+::ng-deep .pagination {
+    background-color: red;
+}
+
+::ng-deep .page-item.active .page-link {
+    background-color: black;
+    color: red;
+}
+
+::ng-deep .page-link {
+    color: black;
+}
+
+::ng-deep .pagination .page-item.active .page-link {
+    border-color: red !important;
+    box-shadow: none !important;
+}

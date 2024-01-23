@@ -1,0 +1,12 @@
+.card {
+    border: 2px solid transparent; 
+    transition: transform 0.3s ease, border 0.3s ease; 
+}
+
+.card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    border-color: yellow; 
+}
+
+

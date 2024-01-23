@@ -47,9 +47,24 @@ Certifique-se de ter o Node.js e o Angular CLI instalados em seu sistema. Se ain
     ```bash
     npm install -g @angular/cli
     ```
+3. Acesse o diretório do projeto:
+
+    
 
 ### Passos para Executar o Projeto:
 
 1. **Clone o repositório:**
    ```bash
    git clone [URL_DO_SEU_REPOSITORIO]
+   
+2. Acesse o diretório do projeto:
+   ```
+   cd cinema-explorer
+3. Instale as dependências:
+   ```
+   npm install
+4. Inicie o servidor de desenvolvimento:
+   ```
+   ng serve
+
+   

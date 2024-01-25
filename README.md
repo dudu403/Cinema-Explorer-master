@@ -32,4 +32,39 @@ Este projeto utiliza tecnologias modernas, incluindo Angular, TypeScript, Node.j
 
 Seus filmes favoritos são armazenados localmente no seu navegador usando o LocalStorage. Nada complicado, apenas uma maneira fácil de manter sua lista pessoal!
 
-Divirta-se explorando o mundo do cinema com o Cinema Explorer!
+## Como Rodar o Projeto
+
+Se você deseja executar localmente o Cinema Explorer em seu ambiente de desenvolvimento, siga os passos abaixo:
+
+### Pré-requisitos:
+
+Certifique-se de ter o Node.js e o Angular CLI instalados em seu sistema. Se ainda não tiver, você pode instalá-los da seguinte maneira:
+
+1. **Node.js:** Baixe e instale o Node.js a partir do [site oficial](https://nodejs.org/).
+
+2. **Angular CLI:** Abra o terminal (ou prompt de comando) e execute o seguinte comando para instalar o Angular CLI globalmente:
+
+    ```bash
+    npm install -g @angular/cli
+    ```
+3. Acesse o diretório do projeto:
+
+    
+
+### Passos para Executar o Projeto:
+
+1. **Clone o repositório:**
+   ```bash
+   git clone [URL_DO_SEU_REPOSITORIO]
+   
+2. Acesse o diretório do projeto:
+   ```
+   cd cinema-explorer
+3. Instale as dependências:
+   ```
+   npm install
+4. Inicie o servidor de desenvolvimento:
+   ```
+   ng serve
+
+   
